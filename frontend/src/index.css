@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+
+
+h1 {
+  font-size: 3.5rem; /* equivalent to 54px */
+}
+
+h2 {
+  font-size: 2.5rem; /* equivalent to 40px */
+}
+
+h3 {
+  font-size: 2rem; /* equivalent to 32px */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  background-color: #c5ead9;
+  min-height: 100vh;
+  background-image: url('assets/bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sign-in-btn {
+  background-color: #05A82E;
+  color: white;
+}
+
+html, body, .App {
+  min-height: 100vh;
+}
+
+.food_container {
+  height: 23vh;
+  width: 40vw;
+  background-color: #FEEFEA;
+  overflow-y: scroll;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.food_item {
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  width: 35vw;
+  background-color: #FFF5E1;
+  position: relative;
+  left:1%;
+}
+
+.grey_line {
+  width: 96px;
+  height: 0px;
+  border: 5px solid rgba(0, 0, 0, 0.08);
+}
+
+.green_line {
+  width: 96px;
+  height: 0px;
+  border: 5px solid #3BB77E;
+}
+
+.warning_word {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #B7423B;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.normal_word {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+
+.warning_icon {
+  padding-left: 50px;
+}
+
+.delete_icon {
+  height: 40px;
+  padding-top: 8px;
+}
+.page_change_button {
+    width: 40vw;
+    height: 52px;
+    /* BaseGreen */
+    background: #3BB77E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 2px 2px 0px;
+  }
+
+.operate_button {
+    width: 500px;
+    height: 52px;
+    /* BaseGreen */
+    background: #3BB77E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 2px 2px 0px;
+  }
+
+.vegetable_deco {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+  
+.my-card {
+  width: 518px;
+  height: 649px;
+}
+
+.shopping_container {
+  height: 23vh;
+  width: 40vw;
+  background-image: url('./assets/Sticky.svg');
+  overflow-y: scroll;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

@@ -1,0 +1,297 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+#checklist{
+    padding-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #3BB77E;
+  }
+
+  #popupWindow {
+      width: 900px;
+      height: 400px;
+  }
+
+  #modal-body{
+      padding-top: 10px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+
+  #checklist-container{
+      display: flex;
+      justify-content: center;
+      flex-direction: 'row';
+      /* align-items: center; */
+  }
+
+  #category-detail-list-form{
+      padding-bottom: 10px;
+      max-width: 220px;
+  }
+
+  #expiration-date-input{
+      max-width: 220px;
+  }
+
+  #add-button-wrap{
+      padding-top: 20px;
+  }
+
+  button.add-button {
+      border:#FEEFEA;
+      background-color: #FEEFEA;
+      color: #3BB77E;
+      font-weight: 600;
+      width: 100px;
+      height: 35px;
+      border-radius: 10px;
+  }
+
+  #submit-button-wrap{
+      padding-top: 40px;
+      display: flex;
+      justify-content: center;
+  }
+
+  #submit-button{
+      border:#EF6A6A;
+      background-color: #EF6A6A;
+      color: #FFFFFF;
+      font-weight: 600;
+      font-size: 20px;
+      width: 280px;
+      height: 50px;
+      border-radius: 20px;
+  }
+
+  #avocado{
+      margin-right: 10px;
+  }
+
+  #checklist{
+    padding-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #3BB77E;
+  }
+
+  #popupWindow {
+      width: 900px;
+      height: 400px;
+  }
+
+  #checklist-table{
+      /* text-align: center; */
+      width:100%;
+      /* border: 1px solid #ddd; */
+  }
+
+  #left-side-table{
+      max-height: 300px;
+      overflow-y: auto;
+      border-radius: 10px;
+      border-collapse: collapse;
+  }
+
+  #checklist-table-head{
+      background-color: #D2EFE1;
+      font-weight: bold;
+      font-size: 16px;
+  }
+
+  #modal-body{
+      padding-top: 10px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+
+  #checklist-container{
+      display: flex;
+      justify-content: center;
+      flex-direction: 'row';
+      /* align-items: center; */
+  }
+
+  #right-side{
+      flex: 4;
+  }
+
+  #left-side{
+      flex: 6;
+      margin-right: 70px;
+  }
+
+  #checklist-table thead tr {
+      height: 30px;
+  }
+
+  #checklist-table tbody tr {
+      height: 40px;
+  }
+
+  td:first-child {
+    text-align: center;
+  }
+  #checklist-table td {
+      padding-left: 15px;
+      font-size: 15px;
+  }
+
+  #checklist-table thead th {
+      padding-left: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      position: sticky;
+      top: 0;
+      background-color: #D2EFE1;
+  }
+
+  #category-list-label{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 17px;
+      color: #EF6A6A;
+      padding-bottom: 5px;
+  }
+
+  #category-list-form{
+      padding-bottom: 10px;
+      max-width: 220px;
+  }
+
+  #category-detail-list-label{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 17px;
+      color: #968aed;
+      padding-bottom: 5px;
+  }
+
+  #expiration-Date-label{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 17px;
+      color: #3BB77E;
+      padding-bottom: 5px;
+  }
+
+  #expiration-date-input{
+      max-width: 220px;
+  }
+
+  #add-button-wrap{
+      padding-top: 20px;
+  }
+
+  button.add-button {
+      border:#FEEFEA;
+      background-color: #FEEFEA;
+      color: #3BB77E;
+      font-weight: 600;
+      width: 100px;
+      height: 35px;
+      border-radius: 10px;
+  }
+
+  #submit-button-wrap{
+      padding-top: 40px;
+      display: flex;
+      justify-content: center;
+  }
+
+  #submit-button{
+      border:#EF6A6A;
+      background-color: #EF6A6A;
+      color: #FFFFFF;
+      font-weight: 600;
+      font-size: 20px;
+      width: 280px;
+      height: 50px;
+      border-radius: 20px;
+  }
+
+  #avocado{
+      margin-right: 10px;
+  }
+
+.food_item.mt-4{
+    background-color: #FEEFEA;
+    width: 95%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.food_list_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .warning_word:nth-of-type(1) {
+    width: 40%;
+    width: 100px;
+  }
+
+  .warning_word:nth-of-type(2) {
+    width: 30%;
+  }
+
+  .list-group-item {
+    height: 40px;
+  }
+
+  .list-group li:nth-child(2n+1) {
+    background-color: #FEEFEA;
+  }
+
+  .list-group li:nth-child(2n+2) {
+    background-color: white;
+  }
+

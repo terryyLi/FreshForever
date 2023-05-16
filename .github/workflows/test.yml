@@ -1,0 +1,39 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+      - sprint1
+  pull_request:
+    branches:
+      - main
+      - sprint1
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14.x
+
+      - name: Clean Cache
+        run: npm cache clean --force
+
+      - name: Run on backend files
+        run: |
+          npm install
+          npm run test
